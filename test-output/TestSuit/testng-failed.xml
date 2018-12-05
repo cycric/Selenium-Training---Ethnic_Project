@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="15" guice-stage="DEVELOPMENT" name="Failed suite [TestSuit]">
+  <test name="Yahoo TestNG Groups(failed)">
+    <parameter name="browser" value="CH"/>
+    <classes>
+      <class name="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2">
+        <methods>
+          <include name="setUp"/>
+          <include name="shareProductOptionTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="login"/>
+          <include name="afterTest"/>
+          <include name="logOffTest"/>
+          <include name="shareOnFbTest" invocation-numbers="1"/>
+          <include name="shareProductOptionsTest" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.EthnicStore.test.integration.tests.TestUsingSingleProduct2 -->
+    </classes>
+  </test> <!-- Yahoo TestNG Groups(failed) -->
+</suite> <!-- Failed suite [TestSuit] -->

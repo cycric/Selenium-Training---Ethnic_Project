@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuit">
+              <span class="suite-name border-failed">TestSuit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuit">
+                    <span>C:\Users\SAI\workspace\EthnicStoreProject\testUsingSingleProduct2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuit">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuit">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods, 11 failed,  1 skipped,  13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuit" class="hide-methods failed suite-TestSuit"> (hide)</a> <!-- hide-methods failed suite-TestSuit -->
+                      <a href="#" panel-name="suite-TestSuit" class="show-methods failed suite-TestSuit"> (show)</a> <!-- show-methods failed suite-TestSuit -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuit">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareOnFbTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)">shareOnFbTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)">shareProductOptionTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)">shareProductOptionTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)">shareProductOptionTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)">shareProductOptionTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)">shareProductOptionTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionsTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)">shareProductOptionsTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionsTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)">shareProductOptionsTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionsTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)">shareProductOptionsTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionsTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)">shareProductOptionsTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareProductOptionsTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)">shareProductOptionsTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuit -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TestSuit" class="hide-methods skipped suite-TestSuit"> (hide)</a> <!-- hide-methods skipped suite-TestSuit -->
+                      <a href="#" panel-name="suite-TestSuit" class="show-methods skipped suite-TestSuit"> (show)</a> <!-- show-methods skipped suite-TestSuit -->
+                    </span>
+                    <div class="method-list-content skipped suite-TestSuit">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="logOffTest">logOffTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-TestSuit -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuit" class="hide-methods passed suite-TestSuit"> (hide)</a> <!-- hide-methods passed suite-TestSuit -->
+                      <a href="#" panel-name="suite-TestSuit" class="show-methods passed suite-TestSuit"> (show)</a> <!-- show-methods passed suite-TestSuit -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="checkOutUsingUrls(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)">checkOutUsingUrls(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="checkOutUsingUrls(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)">checkOutUsingUrls(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="checkOutUsingUrls(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)">checkOutUsingUrls(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="checkOutUsingUrls(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)">checkOutUsingUrls(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="checkOutUsingUrls(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)">checkOutUsingUrls(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="productReviewTest">productReviewTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="quickSearchMethodTest">quickSearchMethodTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="selectManufaturerMethod">selectManufaturerMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareOnFbTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)">shareOnFbTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareOnFbTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)">shareOnFbTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareOnFbTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)">shareOnFbTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuit" title="com.EthnicStore.test.integration.tests.TestUsingSingleProduct2" hash-for-method="shareOnFbTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)">shareOnFbTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuit" class="panel TestSuit">
+          <div class="suite-TestSuit-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.EthnicStore.test.integration.tests.TestUsingSingleProduct2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareOnFbTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)">
+                  </a> <!-- shareOnFbTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y) -->
+                  <span class="method-name">shareOnFbTest</span>
+                  <span class="parameters">(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;columnRight&apos;]/div[3]/div[2]/a[2]&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+*** Element info: {Using=xpath, value=//*[@id=&apos;columnRight&apos;]/div[3]/div[2]/a[2]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.EthnicStore.test.integration.storePageObjects.ProductList.shareProductOnFb(ProductList.java:114)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareOnFbTest(TestUsingSingleProduct2.java:164)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)">
+                  </a> <!-- shareProductOptionTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...) -->
+                  <span class="method-name">shareProductOptionTest</span>
+                  <span class="parameters">(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping, N)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;userEmail&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+*** Element info: {Using=id, value=userEmail}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.EthnicStore.test.integration.storePageObjects.PinItShareWindowPage.pinItUserLogin(PinItShareWindowPage.java:30)
+	at com.EthnicStore.test.integration.storePageObjects.ProductList.shareProductOnPinIt(ProductList.java:95)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionTest(TestUsingSingleProduct2.java:152)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)">
+                  </a> <!-- shareProductOptionTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y) -->
+                  <span class="method-name">shareProductOptionTest</span>
+                  <span class="parameters">(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;userEmail&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+*** Element info: {Using=id, value=userEmail}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.EthnicStore.test.integration.storePageObjects.PinItShareWindowPage.pinItUserLogin(PinItShareWindowPage.java:30)
+	at com.EthnicStore.test.integration.storePageObjects.ProductList.shareProductOnPinIt(ProductList.java:95)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionTest(TestUsingSingleProduct2.java:152)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)">
+                  </a> <!-- shareProductOptionTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N) -->
+                  <span class="method-name">shareProductOptionTest</span>
+                  <span class="parameters">(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;userEmail&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+*** Element info: {Using=id, value=userEmail}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.EthnicStore.test.integration.storePageObjects.PinItShareWindowPage.pinItUserLogin(PinItShareWindowPage.java:30)
+	at com.EthnicStore.test.integration.storePageObjects.ProductList.shareProductOnPinIt(ProductList.java:95)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionTest(TestUsingSingleProduct2.java:152)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)">
+                  </a> <!-- shareProductOptionTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y) -->
+                  <span class="method-name">shareProductOptionTest</span>
+                  <span class="parameters">(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;userEmail&quot;}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+*** Element info: {Using=id, value=userEmail}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:417)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at com.EthnicStore.test.integration.storePageObjects.PinItShareWindowPage.pinItUserLogin(PinItShareWindowPage.java:30)
+	at com.EthnicStore.test.integration.storePageObjects.ProductList.shareProductOnPinIt(ProductList.java:95)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionTest(TestUsingSingleProduct2.java:152)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)">
+                  </a> <!-- shareProductOptionTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...) -->
+                  <span class="method-name">shareProductOptionTest</span>
+                  <span class="parameters">(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping, N)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:326)
+	at com.EthnicStore.test.integration.storePageObjects.HomePage.isLoaded(HomePage.java:60)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:46)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionTest(TestUsingSingleProduct2.java:148)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionsTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)">
+                  </a> <!-- shareProductOptionsTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y) -->
+                  <span class="method-name">shareProductOptionsTest</span>
+                  <span class="parameters">(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:326)
+	at com.EthnicStore.test.integration.storePageObjects.HomePage.isLoaded(HomePage.java:60)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:46)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionsTest(TestUsingSingleProduct2.java:136)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionsTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)">
+                  </a> <!-- shareProductOptionsTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...) -->
+                  <span class="method-name">shareProductOptionsTest</span>
+                  <span class="parameters">(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping, N)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:326)
+	at com.EthnicStore.test.integration.storePageObjects.HomePage.isLoaded(HomePage.java:60)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:46)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionsTest(TestUsingSingleProduct2.java:136)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionsTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)">
+                  </a> <!-- shareProductOptionsTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y) -->
+                  <span class="method-name">shareProductOptionsTest</span>
+                  <span class="parameters">(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:326)
+	at com.EthnicStore.test.integration.storePageObjects.HomePage.isLoaded(HomePage.java:60)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:46)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionsTest(TestUsingSingleProduct2.java:136)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionsTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)">
+                  </a> <!-- shareProductOptionsTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N) -->
+                  <span class="method-name">shareProductOptionsTest</span>
+                  <span class="parameters">(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:326)
+	at com.EthnicStore.test.integration.storePageObjects.HomePage.isLoaded(HomePage.java:60)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:46)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionsTest(TestUsingSingleProduct2.java:136)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProductOptionsTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)">
+                  </a> <!-- shareProductOptionsTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...) -->
+                  <span class="method-name">shareProductOptionsTest</span>
+                  <span class="parameters">(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping, N)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:43:45 -0700&apos;
+System info: host: &apos;SAI-HP&apos;, ip: &apos;192.168.1.118&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\SAI\AppData\Local\Temp\scoped_dir1788_7493}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: fc3d62a318f138a354b06d20188c1174
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:326)
+	at com.EthnicStore.test.integration.storePageObjects.HomePage.isLoaded(HomePage.java:60)
+	at org.openqa.selenium.support.ui.LoadableComponent.get(LoadableComponent.java:46)
+	at com.EthnicStore.test.integration.tests.TestUsingSingleProduct2.shareProductOptionsTest(TestUsingSingleProduct2.java:136)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuit-class-failed -->
+          <div class="suite-TestSuit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.EthnicStore.test.integration.tests.TestUsingSingleProduct2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOffTest">
+                  </a> <!-- logOffTest -->
+                  <span class="method-name">logOffTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TestUsingSingleProduct2.logOffTest()[pri:0, instance:com.EthnicStore.test.integration.tests.TestUsingSingleProduct2@2b2948e2] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuit-class-skipped -->
+          <div class="suite-TestSuit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.EthnicStore.test.integration.tests.TestUsingSingleProduct2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutUsingUrls(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)">
+                  </a> <!-- checkOutUsingUrls(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y) -->
+                  <span class="method-name">checkOutUsingUrls</span>
+                  <span class="parameters">(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutUsingUrls(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)">
+                  </a> <!-- checkOutUsingUrls(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...) -->
+                  <span class="method-name">checkOutUsingUrls</span>
+                  <span class="parameters">(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping, N)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutUsingUrls(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)">
+                  </a> <!-- checkOutUsingUrls(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N) -->
+                  <span class="method-name">checkOutUsingUrls</span>
+                  <span class="parameters">(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutUsingUrls(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)">
+                  </a> <!-- checkOutUsingUrls(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...) -->
+                  <span class="method-name">checkOutUsingUrls</span>
+                  <span class="parameters">(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping, N)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutUsingUrls(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)">
+                  </a> <!-- checkOutUsingUrls(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y) -->
+                  <span class="method-name">checkOutUsingUrls</span>
+                  <span class="parameters">(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="productReviewTest">
+                  </a> <!-- productReviewTest -->
+                  <span class="method-name">productReviewTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="quickSearchMethodTest">
+                  </a> <!-- quickSearchMethodTest -->
+                  <span class="method-name">quickSearchMethodTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectManufaturerMethod">
+                  </a> <!-- selectManufaturerMethod -->
+                  <span class="method-name">selectManufaturerMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareOnFbTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)">
+                  </a> <!-- shareOnFbTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N) -->
+                  <span class="method-name">shareOnFbTest</span>
+                  <span class="parameters">(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareOnFbTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)">
+                  </a> <!-- shareOnFbTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...) -->
+                  <span class="method-name">shareOnFbTest</span>
+                  <span class="parameters">(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping, N)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareOnFbTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)">
+                  </a> <!-- shareOnFbTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...) -->
+                  <span class="method-name">shareOnFbTest</span>
+                  <span class="parameters">(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping, N)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareOnFbTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)">
+                  </a> <!-- shareOnFbTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y) -->
+                  <span class="method-name">shareOnFbTest</span>
+                  <span class="parameters">(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuit-class-passed -->
+        </div> <!-- panel TestSuit -->
+        <div panel-name="test-xml-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SAI\workspace\EthnicStoreProject\testUsingSingleProduct2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;15&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSuit&quot;&gt;
+  &lt;test name=&quot;Yahoo TestNG Groups&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;CH&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.EthnicStore.test.integration.tests.TestUsingSingleProduct2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Yahoo TestNG Groups --&gt;
+&lt;/suite&gt; &lt;!-- TestSuit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Yahoo TestNG Groups (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">PlaceOrder</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkOutUsingUrls</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Register and login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ShareProduct</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">shareOnFbTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">shareProductOptionTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">shareProductOptionsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">productTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">productReviewTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">quickSearchMethodTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectManufaturerMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuit');
+function tableData_TestSuit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'shareProductOptionTest')
+data.setCell(0, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(0, 3, 115808);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'shareProductOptionTest')
+data.setCell(1, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(1, 3, 111872);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'shareProductOptionTest')
+data.setCell(2, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(2, 3, 111046);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'shareProductOptionTest')
+data.setCell(3, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(3, 3, 110363);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'shareOnFbTest')
+data.setCell(4, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(4, 3, 49407);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shareOnFbTest')
+data.setCell(5, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(5, 3, 36973);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'shareOnFbTest')
+data.setCell(6, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(6, 3, 36796);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'shareOnFbTest')
+data.setCell(7, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(7, 3, 35717);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'shareOnFbTest')
+data.setCell(8, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(8, 3, 35300);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'shareProductOptionsTest')
+data.setCell(9, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(9, 3, 30367);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'shareProductOptionsTest')
+data.setCell(10, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(10, 3, 30309);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'shareProductOptionsTest')
+data.setCell(11, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(11, 3, 30115);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'shareProductOptionsTest')
+data.setCell(12, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(12, 3, 30093);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'shareProductOptionsTest')
+data.setCell(13, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(13, 3, 30076);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'shareProductOptionTest')
+data.setCell(14, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(14, 3, 30067);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'productReviewTest')
+data.setCell(15, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(15, 3, 18107);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkOutUsingUrls')
+data.setCell(16, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(16, 3, 15435);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkOutUsingUrls')
+data.setCell(17, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(17, 3, 14333);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkOutUsingUrls')
+data.setCell(18, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(18, 3, 13408);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'login')
+data.setCell(19, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(19, 3, 12453);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkOutUsingUrls')
+data.setCell(20, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(20, 3, 6305);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkOutUsingUrls')
+data.setCell(21, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(21, 3, 5887);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'quickSearchMethodTest')
+data.setCell(22, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(22, 3, 2289);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'selectManufaturerMethod')
+data.setCell(23, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(23, 3, 2263);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'logOffTest')
+data.setCell(24, 2, 'com.EthnicStore.test.integration.tests.TestUsingSingleProduct2')
+data.setCell(24, 3, 0);
+window.suiteTableData['TestSuit']= { tableData: data, tableDiv: 'times-div-TestSuit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 minutes</span>
+              <div id="times-div-TestSuit">
+              </div> <!-- times-div-TestSuit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.EthnicStore.test.integration.tests.TestUsingSingleProduct2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(CH)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">18226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutUsingUrls(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</span>
+                <span class="method-start">31754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutUsingUrls(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</span>
+                <span class="method-start">38068 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutUsingUrls(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</span>
+                <span class="method-start">43961 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutUsingUrls(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)</span>
+                <span class="method-start">59402 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutUsingUrls(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)</span>
+                <span class="method-start">73744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">productReviewTest</span>
+                <span class="method-start">87158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">quickSearchMethodTest</span>
+                <span class="method-start">105271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectManufaturerMethod</span>
+                <span class="method-start">107565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareOnFbTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</span>
+                <span class="method-start">110306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareOnFbTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</span>
+                <span class="method-start">145609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareOnFbTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</span>
+                <span class="method-start">195031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareOnFbTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)</span>
+                <span class="method-start">230753 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shareOnFbTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)</span>
+                <span class="method-start">267731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</span>
+                <span class="method-start">304844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</span>
+                <span class="method-start">420660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</span>
+                <span class="method-start">532541 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)</span>
+                <span class="method-start">643596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)</span>
+                <span class="method-start">753959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionsTest(22, Ethnic Jewellery, _31, Bracelets, 38, Normal Payment gateway, Ground Shipping, Y)</span>
+                <span class="method-start">784433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionsTest(23, Ethnic Clothing (Men), _32, Kurta_Pyjama, 30, Normal Payment gateway, Ground Shipping, Y)</span>
+                <span class="method-start">814564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionsTest(24, Ethnic Clothing (Women), _42, Salwar, 68, Normal Payment gateway, Ground Shipping, N)</span>
+                <span class="method-start">844882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionsTest(39, Ethnic Clothing (kids), _40, Boys Ethnic Wear Grey, 91, Normal Payment gateway, Ground Shipping,...)</span>
+                <span class="method-start">875265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProductOptionsTest(39, Ethnic Clothing (kids), _41, Embroided Silk Pavadai, 93, Normal Payment gateway, Ground Shipping...)</span>
+                <span class="method-start">905365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">935453 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
